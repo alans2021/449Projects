@@ -1,0 +1,7 @@
+The test case is under mytest.c, where two int pointer, an array of 5 int pointers, and three struct PERSON pointers are allocated and freed from the heap using the original instructions and my implementation.
+
+To test this, first see if the output's data are identical, which they are, to prove that data is stored properly.
+
+Second, check to see if the ALAN and TEST2 pointer point to the same location, and that ERICA and RANDOM pointer point to the same location. This shows that free's and malloc's are done properly.
+
+Finally, run valgrind to detect if there are any memory leaks that occur.
